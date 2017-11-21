@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: central-kms-config
+data:
+  db.host: "central-kms-postgresql"
+  db.port: "5432"
