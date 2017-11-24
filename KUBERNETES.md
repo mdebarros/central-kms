@@ -20,10 +20,10 @@
     `minikube start`
 
 7. Initialise Helm
-    `helm init`
+    `helm init` <-- this only needs to be done once
 
 8. Deploy Ingress
-    `?`
+    `minikube addon ingress enable`
 
 9. Configure PostgreSQL
     Edit `postgresUser` & `postgresPassword` as desired in the follow file `./k8s/central-kms-helm-postgresql-values.yaml` 
@@ -38,6 +38,8 @@
 
 12. Deploy Central-kms
     `kubectl create -f ./k8s`
+
+    `kubectl -n dev create -f ./k8s`
 
 13. Add the following to your hosts file
 `<IP>	registry.local central-kms.local`
