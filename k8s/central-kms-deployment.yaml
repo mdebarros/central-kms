@@ -14,7 +14,7 @@
       spec:
         containers:
           - name: central-kms
-            image: mojaloop/central-kms:v0.1
+            image: mojaloop/central-kms:latest
             ports:
               - containerPort: 8080
             # livenessProbe:
