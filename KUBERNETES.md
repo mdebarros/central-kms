@@ -1,6 +1,5 @@
 # Running central-kms on Kubernetes
 
-
 1. Install VirtualBox
     Refer to: https://www.virtualbox.org/wiki/Downloads
 
