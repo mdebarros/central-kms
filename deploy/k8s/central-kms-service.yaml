@@ -2,6 +2,8 @@ kind: Service
 apiVersion: v1
 metadata:
   name: central-kms
+  labels:
+    app: central-kms
 spec:
   ports:
     - port: 80
