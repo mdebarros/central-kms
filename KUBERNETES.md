@@ -41,7 +41,7 @@
     `kubectl -n dev create -f ./k8s`
 
 13. Add the following to your hosts file
-`<IP>	registry.local central-kms.local`
+`<IP>	registry.local central-kms.local forensic-logging-sidecar.local central.ledger.local`
 
 Where `<IP>` can be attained using the following command `minikube ip`
 
