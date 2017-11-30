@@ -1,3 +1,5 @@
+## execute helm install --name central-kms-registry -f ./central-ledger-helm-postgresql-values.yaml stable/postgresql
+
 ## postgres image repository
 image: "postgres"
 ## postgres image version
